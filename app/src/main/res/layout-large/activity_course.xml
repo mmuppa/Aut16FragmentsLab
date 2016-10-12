@@ -7,7 +7,7 @@
         android:layout_width="0dp"
         android:layout_weight="1"
         android:layout_height="match_parent"
-        android:id="@+id/course_list_frag"
+        android:id="@+id/course_frag"
         android:name="uw.tacoma.edu.aut16fragmentslab.CourseFragment" />
 
     <fragment

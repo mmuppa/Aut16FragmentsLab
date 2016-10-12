@@ -28,7 +28,7 @@ public class CourseActivity extends AppCompatActivity implements CourseFragment.
     public void onListFragmentInteraction(CourseContent.CourseItem item) {
         // Capture the course fragment from the activity layout
         CourseDetailFragment courseDetailFragment = (CourseDetailFragment)
-                getSupportFragmentManager().findFragmentById(R.id.course_detail_fragment);
+                getSupportFragmentManager().findFragmentById(R.id.course_item_frag);
 
         if (courseDetailFragment != null) {
             // If courseDetail frag is available, we're in two-pane layout...

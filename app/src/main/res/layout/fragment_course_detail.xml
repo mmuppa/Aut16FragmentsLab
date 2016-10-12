@@ -3,7 +3,6 @@
              android:layout_width="match_parent"
              android:layout_height="match_parent"
               android:orientation="vertical"
-             android:id="@+id/course_detail_fragment"
              tools:context="uw.tacoma.edu.aut16fragmentslab.CourseDetailFragment">
 
     <TextView
